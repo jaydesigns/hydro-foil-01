@@ -568,12 +568,6 @@
 .relative {
       position: relative;
 }
-.inset-0 {
-      top: 0px;
-      right: 0px;
-      bottom: 0px;
-      left: 0px;
-}
 .inset-x-auto {
       left: auto;
       right: auto;
@@ -609,9 +603,6 @@
 }
 .right-0 {
       right: 0px;
-}
-.top-0 {
-      top: 0px;
 }
 .z-10 {
       z-index: 10;
