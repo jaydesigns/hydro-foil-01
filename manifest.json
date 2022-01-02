@@ -1,0 +1,23 @@
+{
+  "name": "PCC Employee",
+  "short_name": "PCCEmployee",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#f0dfba",
+  "theme_color": "#735933",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "assets/img/icon-64.png",
+      "type": "image/png", "sizes": "64x64"
+    },
+    {
+      "src": "assets/img/icon-128.png",
+      "type": "image/png", "sizes": "128x128"
+    },
+	{
+      "src": "assets/img/icon-256.png",
+      "type": "image/png", "sizes": "72x72"
+    },
+  ]
+}
