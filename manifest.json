@@ -1,23 +1,17 @@
 {
-  "name": "PCC Employee",
-  "short_name": "PCCEmployee",
-  "start_url": "index.html",
-  "display": "standalone",
-  "background_color": "#f0dfba",
-  "theme_color": "#735933",
-  "orientation": "portrait-primary",
-  "icons": [
-    {
-      "src": "assets/img/icon-64.png",
-      "type": "image/png", "sizes": "64x64"
-    },
-    {
-      "src": "assets/img/icon-128.png",
-      "type": "image/png", "sizes": "128x128"
-    },
-	{
-      "src": "assets/img/icon-256.png",
-      "type": "image/png", "sizes": "72x72"
-    }
-  ]
+    "lang": "en-us",
+    "name": "PCC Employee App",
+    "short_name": "PCCemployee",
+    "description": "A sample PWA for testing purposes",
+    "start_url": "/",
+    "background_color": "#2f3d58",
+    "theme_color": "#2f3d58",
+    "orientation": "any",
+    "display": "standalone",
+    "icons": [
+        {
+            "src": "assets/img/icon-512.png",
+            "sizes": "512x512"
+        }
+    ]
 }
