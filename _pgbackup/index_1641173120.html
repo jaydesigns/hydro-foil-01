@@ -19,7 +19,7 @@
         <script type="module" src="/pwabuilder-sw-register.js"></script>
     </head>
     <body>
-        <nav class="fixed top-0 w-full">
+        <nav>
             <section>
                 <div>
                     <div>
@@ -28,59 +28,27 @@
                 </div>
             </section>
         </nav>
-        <section class="flex pt-10 relative top-20 w-full">
-            <div class="gap-4 grid grid-cols-3 lg:gap-8 lg:w-5/12 mx-auto w-4/5">
-                <div class="2xl:h-96 flex flex-col h-48 lg:h-80 xl:h-96">
-                    <div class="flex flex-col h-4/6 overflow-hidden relative rounded-md w-full">
-                        <a href="lib/categories/employee-handbook.html" class="absolute inset-0 z-10"></a>
-                        <div class="bg-center bg-cover h-5/6 relative" style="background-image: url('assets/img/fireknife-dancers.jpg');"></div>
+        <section class="container flex items-center justify-items-center pb-5 pt-10 lg:gap-12 lg:px-60">
+            <div class="gap-2 grid grid-cols-3 mx-auto w-4/5">
+                <div class="flex flex-col h-48 lg:h-80 xl:h-96 2xl:h-96">
+                    <div class="flex flex-col h-4/6 overflow-hidden rounded-md w-full">
+                        <div class="bg-center bg-cover h-5/6" style="background-image: url('assets/img/fireknife-dancers.jpg');"></div>
                         <div class="h-1/6" style="background-color: #328f33;"></div>
                     </div>
                     <div class="h-1/3 w-full">
-                        <a href="lib/categories/employee-handbook.html" class="font-bold text-sm">Employee Handbook</a>
+                        <a href="" class="font-bold text-sm">Employee Handbook</a>
                     </div>
                 </div>
-                <div class="2xl:h-96 flex flex-col h-48 lg:h-80 xl:h-96">
+                <div class="flex flex-col h-48 lg:h-80 xl:h-96 2xl:h-96">
                     <div class="flex flex-col h-4/6 overflow-hidden rounded-md w-full">
-                        <div class="bg-center bg-cover h-5/6 relative" style="background-image: url('assets/img/settlement.jpg');"></div>
+                        <div class="bg-center bg-cover h-5/6" style="background-image: url('assets/img/settlement.jpg');"></div>
                         <div class="h-1/6" style="background-color: #e27249;"></div>
                     </div>
                     <div class="h-1/3 w-full">
                         <a href="" class="font-bold text-sm">Policies and Procedures</a>
                     </div>
                 </div>
-                <div class="2xl:h-96 flex flex-col h-48 lg:h-80 xl:h-96">
-                    <div class="flex flex-col h-4/6 overflow-hidden rounded-md w-full">
-                        <div class="bg-center bg-cover h-5/6 relative" style="background-image: url('assets/img/icon-512.png');"></div>
-                        <div class="h-1/6" style="background-color: #00aec7;"></div>
-                    </div>
-                    <div class="h-1/3 w-full">
-                        <a href="" class="font-bold text-sm">Coming Soon</a>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="flex pt-10 relative top-20 w-full">
-            <div class="gap-4 grid grid-cols-3 lg:gap-8 lg:w-5/12 mx-auto w-4/5">
-                <div class="2xl:h-96 flex flex-col h-48 lg:h-80 xl:h-96">
-                    <div class="flex flex-col h-4/6 overflow-hidden rounded-md w-full">
-                        <div class="bg-center bg-cover h-5/6" style="background-image: url('assets/img/icon-512.png');"></div>
-                        <div class="h-1/6" style="background-color: #00aec7;"></div>
-                    </div>
-                    <div class="h-1/3 w-full">
-                        <a href="" class="font-bold text-sm">Coming Soon</a>
-                    </div>
-                </div>
-                <div class="2xl:h-96 flex flex-col h-48 lg:h-80 xl:h-96">
-                    <div class="flex flex-col h-4/6 overflow-hidden rounded-md w-full">
-                        <div class="bg-center bg-cover h-5/6" style="background-image: url('assets/img/icon-512.png');"></div>
-                        <div class="h-1/6" style="background-color: #00aec7;"></div>
-                    </div>
-                    <div class="h-1/3 w-full">
-                        <a href="" class="font-bold text-sm">Coming Soon</a>
-                    </div>
-                </div>
-                <div class="2xl:h-96 flex flex-col h-48 lg:h-80 xl:h-96">
+                <div class="flex flex-col h-48 lg:h-80 xl:h-96 2xl:h-96">
                     <div class="flex flex-col h-4/6 overflow-hidden rounded-md w-full">
                         <div class="bg-center bg-cover h-5/6" style="background-image: url('assets/img/icon-512.png');"></div>
                         <div class="h-1/6" style="background-color: #00aec7;"></div>
@@ -91,7 +59,7 @@
                 </div>
             </div>
         </section>
-        <nav class="absolute bottom-0 w-full lg:w-16" style="background-color: #735933;">
+        <div class="absolute bottom-0 w-full lg:w-16" style="background-color: #735933;">
             <div style="background-color: #735933; box-shadow: 4px -4px 8px rgba(0, 0, 0, 0.07);" class="flex lg:flex-col lg:h-screen lg:left-0 lg:place-content-start lg:pt-5 lg:px-5 lg:w-16 nowrap place-content-between px-12 w-full">
                 <div class="inline-block p-4 relative lg:mb-10 lg:p-0"><a href="" class="absolute inset-0"></a>
                     <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg"> 
@@ -111,7 +79,7 @@
                     </svg>
                 </div>
             </div>
-        </nav>
+        </div>
         <script src="pgia/lib/pgia.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.8.1/lottie.min.js" integrity="sha512-V1YyTKZJrzJNhcKthpNAaohFXBnu5K9j7Qiz6gv1knFuf13TW/3vpgVVhJu9fvbdW8lb5J6czIhD4fWK2iHKXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
         <script>
