@@ -10,7 +10,11 @@
     "display": "standalone",
     "icons": [
         {
-            "src": "assets/img/icon-512.png",
+            "src": "assets/img/pcc-emp-256.png",
+            "sizes": "256x256"
+        },
+        {
+            "src": "assets/img/pcc-emp-512.png",
             "sizes": "512x512"
         }
     ]
