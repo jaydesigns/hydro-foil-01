@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../custom.css"> 
+    <title>Follow up Form</title>
+</head>
+<body>
+    <h1>This is a follow up form for <span id="username"></span></h1>
+
+    <div>
+        
+        <h3>Are you still alive?</h3>
+        <button onclick="yesClicked()">Yes</button><button onclick="noClicked()">No</button>
+    </div>
+    <div id="resultInput">
+
+    </div>
+
+    <script>
+        var outputText = document.getElementById("resultInput");
+        var userName = prompt("What is your name?");
+        var userNameInput = document.getElementById("username");
+        userNameInput.innerText = userName;
+
+        function yesClicked(){
+            const resultText = document.createElement("h2");
+            resultText.innerHTML = "I'm glad you're still alive. Keep it up " + userName;
+            outputText.append(resultText);
+        }
+
+        function noClicked(){
+            const resultText = document.createElement("h2");
+            resultText.innerHTML = "You're lying " + userName + ", because if you were, you wouldn't have clicked the button, ya doy.";
+            outputText.append(resultText);
+        }
+    </script>
+</body>
+</html>
