@@ -13,28 +13,45 @@
     <div>
         
         <h3>Are you still alive?</h3>
-        <button onclick="yesClicked()">Yes</button><button onclick="noClicked()">No</button>
+        <button onclick="yesClicked()">Yes</button>
+        <button onclick="noClicked()">No</button>
+        <button onclick="maybeClicked()">Maybe</button>
     </div>
     <div id="resultInput">
 
     </div>
+
 
     <script>
         var outputText = document.getElementById("resultInput");
         var userName = prompt("What is your name?");
         var userNameInput = document.getElementById("username");
         userNameInput.innerText = userName;
+        const resultText = document.createElement("h2");
 
         function yesClicked(){
-            const resultText = document.createElement("h2");
             resultText.innerHTML = "I'm glad you're still alive. Keep it up " + userName;
             outputText.append(resultText);
         }
 
         function noClicked(){
-            const resultText = document.createElement("h2");
             resultText.innerHTML = "You're lying " + userName + ", because if you were, you wouldn't have clicked the button, ya doy.";
             outputText.append(resultText);
+        }
+        
+        function maybeClicked(){
+            const furtherInfoBox = document.createElement("textarea");
+            const mailLink = document.createElement("A")
+            mailLink.innerText = "Send this message to Jay"
+            furtherInfoBox.id = "patientMsg";
+            
+            
+            resultText.innerHTML = "Can you explain how you feel right now?";
+            outputText.append(resultText);
+            outputText.append(furtherInfoBox);
+            outputText.append(mailLink)
+            let msgBody = document.getElementById("patientMsg").value;
+            mailLink.setAttribute("href", "mailto:jayindinodesigns@gmail.com?subject=I%need%to%know%how%to%make%Adobo&body=" + msgBody);
         }
     </script>
 </body>
