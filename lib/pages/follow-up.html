@@ -51,7 +51,8 @@
             outputText.append(furtherInfoBox);
             outputText.append(mailLink)
             let msgBody = document.getElementById("patientMsg").value;
-            mailLink.setAttribute("href", "mailto:jayindinodesigns@gmail.com?subject=I%need%to%know%how%to%make%Adobo&body=" + msgBody);
+            let textVal = "mailto:jayindinodesigns@gmail.com?subject=I%need%to%know%how%to%make%adobo&body=" + msgBody;
+            mailLink.setAttribute("href", textVal);
         }
     </script>
 </body>
